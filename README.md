@@ -1,34 +1,64 @@
-# 🎮 R-Type Remake
+# 🚀 Projet R-Type (ECE.TYPE) – ING1 2025
 
-Un projet de remake du jeu **R-Type**, le célèbre shoot'em up spatial sorti à l'origine en 1987. Ce jeu est une réinterprétation moderne en 2D (ou 3D selon votre cas), développée dans un cadre pédagogique ou personnel, avec des mécaniques de tir, d’ennemis en vague, et de power-ups.
+Un **jeu de type shoot’em up à scrolling horizontal**, inspiré de **R-Type (1987)**, développé en langage C avec la bibliothèque **Allegro 4.4**. Ce projet pédagogique a été réalisé dans le cadre du module d’informatique du semestre 2.
 
-## 🚀 À propos du jeu
+---
 
-**R-Type Remake** vous plonge dans l’univers d’un pilote de vaisseau spatial chargé de repousser une invasion extraterrestre. Le joueur évolue dans des niveaux à défilement horizontal, affronte des boss puissants, et collecte des modules d'amélioration d'arme.
+## 📸 Aperçu
 
-### Fonctionnalités :
-- Contrôle fluide du vaisseau
-- Mécanisme de tir chargé et de tir rapide
-- Vagues d’ennemis variés
-- Boss de fin de niveau
-- Système de power-ups
-- Mode solo (multijoueur en option selon le projet)
+![Capture d’écran menu](assets/menu.png)
+*Menu de démarrage personnalisé avec gestion des sauvegardes*
 
-## 🛠️ Technologies utilisées
+![Gameplay niveau 1](assets/level1.png)
+*Niveau 1 avec scrolling fluide, ennemis mobiles et tirs*
 
-- [Langage] (ex : C++, Python, Java)
-- [Framework] (ex : SFML, Pygame, Unity, Godot)
-- [Outils graphiques] pour les sprites et l’animation
-- Git pour le versionnage
+![Combat contre le boss](assets/bossfight.png)
+*Combat final contre un boss animé*
 
-## 📷 Captures d’écran
+---
 
-*(Ajoutez ici des images ou gifs du jeu en action)*
+## 🎯 Objectif
 
-## 📦 Installation
+Le joueur contrôle un vaisseau spatial qui progresse dans un univers hostile en évitant les obstacles et en détruisant les ennemis. Le but est de traverser plusieurs niveaux pour atteindre et vaincre le boss final.
 
-Clonez le dépôt :
+---
 
-```bash
-git clone https://github.com/votre-utilisateur/r-type-remake.git
-cd r-type-remake
+## 🎮 Fonctionnalités principales
+
+- ✅ Menu interactif avec gestion des sauvegardes (pseudo, niveau débloqué)
+- ✅ 3 niveaux différents avec décors et ennemis variés
+- ✅ Boss final avec comportement spécifique
+- ✅ Système de vies, points de dégâts et reprises
+- ✅ Armements évolutifs avec bonus à ramasser
+- ✅ Ennemis fixes et mobiles, tirs ennemis, collisions gérées
+- ✅ Animation des tirs, explosions et déplacements
+- ✅ Pause, abandon de partie, raccourcis de navigation
+
+---
+
+## 💡 Bonus et extensions
+
+- ⚙️ **Force Pod** (module de tir indestructible détachable)
+- 💥 **Jauge de tir** : système de tir chargé
+- 🎨 Effets visuels personnalisés
+- 🔊 Effets sonores via Allegro (tir, explosion, collision)
+- 🤖 Ennemi adaptatif avec trajectoires complexes
+
+---
+
+## 🛠️ Technologies
+
+- Langage : C
+- Bibliothèque : Allegro 4.4
+- IDE : CLion
+- Versionnage : Git + GitHub
+
+---
+
+## 🧪 Equipe
+
+MATTEODA Rémi
+PETITJEAN Tom
+ROBERT William
+AMROUNI Amyas
+GHESTEM Achille
